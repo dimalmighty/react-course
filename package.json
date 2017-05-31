@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel --plugins transform-react-jsx ./React_for_Beginners_Tutorial/demo-files/03-TodoApp/03_02/start/src/ -w --out-dir ./React_for_Beginners_Tutorial/demo-files/03-TodoApp/03_02/build/"
+    "build": "babel --plugins transform-react-jsx ./Learn_React_JS_from_Scratch/src/ -w --out-dir ./Learn_React_JS_from_Scratch/build/"
   },
   "repository": {
     "type": "git",
