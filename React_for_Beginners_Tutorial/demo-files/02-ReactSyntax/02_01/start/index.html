@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  
+  <title>Hello World Example</title>
+  <head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+    <!-- React -->
+    <!-- <script src="https://fb.me/react-0.14.1.min.js"></script> -->
+    <script src="https://unpkg.com/react@0.14.1/dist/react.min.js"></script>
+    <!--<script src="https://fb.me/react-dom-0.14.1.min.js"></script>-->
+    <script src="https://unpkg.com/react-dom@0.14.1/dist/react-dom.min.js"></script>
+    <!--<script src="https://fb.me/JSXTransformer-0.13.3.js"></script>-->
+    <script src="https://unpkg.com/react@0.13.3/dist/JSXTransformer.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <style>
+    #element {
+      color: blue;
+      margin: 20px;
+    }
+    </style>
+	
+    <div id='element'></div>
+    <script type="text/jsx">
+ 
+      var HelloWorld = React.createClass({
+        render: function(){
+          return (<div>
+                    <h1>Hello {this.props.name }!</h1>
+                  </div>);
+        }
+      })
+
+      React.render(<HelloWorld name="Dimos"/>, document.getElementById('element'))
+    </script> 
+
+    
+  </body>
+
+
+  </script>
+
+</html>

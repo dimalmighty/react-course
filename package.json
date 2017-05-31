@@ -1,0 +1,25 @@
+{
+  "name": "react-course",
+  "version": "1.0.0",
+  "description": "awesome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel --plugins transform-react-jsx ./React_for_Beginners_Tutorial/demo-files/03-TodoApp/03_02/start/src/ -w --out-dir ./React_for_Beginners_Tutorial/demo-files/03-TodoApp/03_02/build/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimalmighty/react-course.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimalmighty/react-course/issues"
+  },
+  "homepage": "https://github.com/dimalmighty/react-course#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "react-tools": "^0.13.3"
+  }
+}
