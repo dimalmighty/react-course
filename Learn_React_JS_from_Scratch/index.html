@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	
-  <title>Learn React from scratch </title>
+  <title>Tutorial: Learn React from scratch </title>
   <head>
     <!-- Latest compiled and minified CSS -->
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -12,10 +12,17 @@
     <script src="https://fb.me/react-dom-0.14.1.js"></script>
 
     <!-- <link rel="stylesheet" href="css/style.css" /> -->
+    <style>
+      .content{
+        font-size: x-large;
+        color: lightblue;
+      }
+    </style>
   </head>
 
   <body>
-
+  <button onClick="renderComponent()">Render component</button>
+  <button onClick="unmountComponent()">Unmount component</button> 
     <div id='container'></div> 		
     
     <script src="./build/script.js"></script>
